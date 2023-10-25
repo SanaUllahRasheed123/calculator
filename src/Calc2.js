@@ -4,7 +4,7 @@ import {useState} from 'react';
 function Calc2() {
   const [input,setInput] = useState('');
   const calculateResults = (input)=>{
-    // let result;
+    
     
     try{
       const operators = ['+','-','*','/'];
