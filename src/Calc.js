@@ -66,6 +66,8 @@ function Calc() {
     }
   }
   return (
+    <>
+   
     <div className='container'>
     <div className='calc'>
     <h1 id='input'>{input}</h1>
@@ -103,6 +105,7 @@ function Calc() {
       </div>
     </div>
     </div>
+    </>
   );
 }
 

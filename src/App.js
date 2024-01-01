@@ -5,8 +5,10 @@ import Calc2 from './Calc2'
 const App = () => {
   return (
     <div>
+
       {/* <Calc/> */}
       <Calc2/>
+
     </div>
   )
 }

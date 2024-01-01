@@ -66,6 +66,8 @@ function Calc2() {
     }
   }
   return (
+    <>
+
     <div className='container'>
     <div className='calc'>
     <h1 id='input'>{input}</h1>
@@ -103,6 +105,9 @@ function Calc2() {
       </div>
     </div>
     </div>
+    <footer style={{color:"white", textAlign:"center", fontSize:"45px", fontFamily:"sans-serif", backgroundColor:"green", margin:"50px"}}>copyright 2024-SanaUllah Rasheed</footer>
+
+    </>
   );
 }
 
